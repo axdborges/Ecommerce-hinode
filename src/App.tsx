@@ -1,10 +1,15 @@
-import './App.css';
+import { Body } from "./components/Body";
+import GlobalStyle from "./styles/global"
 
 function App() {
   return (
-    <div className="App">
-      Isso é um teste
-    </div>
+    <>
+      <GlobalStyle/>
+      <Body/>
+      {/* <div className="App">
+        Isso é um teste
+      </div> */}
+    </>
   );
 }
 
