@@ -4,7 +4,6 @@ import { RiUserHeartLine, RiUserLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
 import { BiHeart, BiShoppingBag } from "react-icons/bi"
 
-
 import logo from "../../assets/logo-grupo-hinode.svg";
 
 export const Header = () => {

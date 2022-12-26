@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
         
         --black-primary: #000000;
         --white-primary: #E5E5E5;
+        --white-basic: #FFFFFF;
         
         /* Backgrounds */
         
@@ -14,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         --white-2-background: #F5F6FA;
         --white-3-background: #F7F7F7;
         --blue-background: #00002D;
+        --brown-background: #d5b69a;
 
         /* Details */
 

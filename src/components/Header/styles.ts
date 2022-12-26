@@ -5,8 +5,7 @@ export const StyledHeader = styled.header`
     flex-direction: column;
 
     .up-header {
-        height: 37.787235260009766px;
-        /* width: 1440px; */
+        height: 2.3617022037506104em;
         width: 100%;
         left: 0px;
         top: 0px;
@@ -17,19 +16,18 @@ export const StyledHeader = styled.header`
         justify-content: space-around;
         align-items: center;
 
-        /* position: absolute; */
-
         .the-company {
-            height: 35px;
-            width: 50px;
+            height: 2.1875em;
+            width: 3.125em;
             left: 149px;
             top: 0px;
             border-radius: nullpx;
 
+            white-space: nowrap;
             font-family: sans-serif;
-            font-size: 10px;
+            font-size: 0.625em;
             font-weight: 400;
-            line-height: 22px;
+            line-height: 1.375em;
             letter-spacing: 0em;
             text-align: left;
 
@@ -42,22 +40,22 @@ export const StyledHeader = styled.header`
         .user {
             width: 50%;
             display: flex;
-            gap: 12px;
+            gap: 0.75em;
             align-items: center;
             justify-content: flex-end;
              
 
             .consultant {
                 height: 100%;
-                width: 156px;
-                left: 1090px;
+                width: 9.75em;
+                left: 68.125em;
                 top: 0px;
                 border-radius: nullpx;
-                gap: 8.55px;
+                gap: 0.534375em;
 
                 svg {
-                    height: 29.13333511352539px;
-                    width: 14.024012565612793px;
+                    height: 1.820833444595337em;
+                    width: 0.75125em;
                     left: 3.428558349609375px;
                     top: 0.66650390625px;
                     border-radius: 0px;
@@ -65,7 +63,7 @@ export const StyledHeader = styled.header`
                 
                 p {
                     font-family: sans-serif;
-                    font-size: 10px;
+                    font-size: 0.625em;
                     font-weight: 700;
                     line-height: 15px;
                     letter-spacing: 0em;
@@ -85,7 +83,7 @@ export const StyledHeader = styled.header`
                 border-radius: nullpx;
 
                 font-family: sans-serif;
-                font-size: 10px;
+                font-size: 0.625em;
                 font-weight: 400;
                 line-height: 22px;
                 letter-spacing: 0em;
@@ -100,21 +98,19 @@ export const StyledHeader = styled.header`
 
     .down-header {
         height: 90px;
-        /* width: 1440px; */
         width: 100%;
         left: 1px;
         top: 36px;
         border-radius: 0px;
         box-shadow: 10px 1px 4px 2px rgba(0,0,0,0.08);
-
-        /* position: absolute; */
+        
         display: flex;
         justify-content: space-evenly;
         align-items: center;
 
         img {
-            height: 45px;
-            width: 216px;
+            height: 2.8125em;
+            width: 13.5em;
             left: 149px;
             top: 59px;
             border-radius: 0px;
@@ -123,9 +119,9 @@ export const StyledHeader = styled.header`
         .find-input{
 
             input {
-                height: 37px;
-                width: 399px;
-                padding-left: 30px;
+                height: 2.3125em;
+                width: 24.9375em;
+                padding-left: 1.875em;
                 left: 453px;
                 top: 63px;
                 border-radius: 100px;
@@ -134,10 +130,10 @@ export const StyledHeader = styled.header`
             }   
 
             svg {
-                margin-left: -40px;
-                margin-bottom: -3px;
-                height: 17.774749755859375px;
-                width: 17.774749755859375px;
+                margin-left: -2.5em;
+                margin-bottom: -2px;
+                height: 1.110625em;
+                width: 1.110625em;
                 left: 1.75px;
                 top: 1.75px;
                 border-radius: 0px;
@@ -165,7 +161,7 @@ export const StyledHeader = styled.header`
                 justify-content: flex-start;
 
                 font-family: sans-serif;
-                font-size: 9px;
+                font-size: 0.75em;
                 font-weight: 600;
                 line-height: 22px;
                 letter-spacing: 0em;
@@ -178,8 +174,8 @@ export const StyledHeader = styled.header`
                 margin-top: -3px;
 
                 svg {
-                    height: 21px;
-                    width: 20px;
+                    height: 1.3125em;
+                    width: 1.25em;
                     left: 878px;
                     top: 73px;
                     border-radius: 0px;
