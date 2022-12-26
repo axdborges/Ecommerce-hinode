@@ -1,5 +1,6 @@
 import { Header } from "../Header";
 import { Main } from "../Main";
+import { Footer } from "../Footer";
 
 export const Body = () => {
 
@@ -7,6 +8,7 @@ export const Body = () => {
         <>
             <Header/>
             <Main/>
+            <Footer/>
         </>
     )
 }
