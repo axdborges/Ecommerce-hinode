@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
         /* Backgrounds */
         
         --gray-background: #E1DCD5;
+        --gray-2-background: #f2f2f2;
         --white-1-background: #FDFDFD;
         --white-2-background: #F5F6FA;
         --white-3-background: #F7F7F7;
