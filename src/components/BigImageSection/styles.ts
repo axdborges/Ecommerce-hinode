@@ -24,8 +24,6 @@ export const StyledBigImageSection = styled.section`
         justify-content: space-between;
         flex-direction: column;
 
-        background-color: var(--blue-background);
-
         .little-card {
             height: 11.5em;
             width: 13.875em;

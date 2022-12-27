@@ -15,6 +15,7 @@ import {
     fragrancies,
     newArrived,
 } from "../../database";
+import { LargeImageSection } from "../LargeImageSection";
 
 export const Body = () => {
 
@@ -27,8 +28,9 @@ export const Body = () => {
             <BigImageSection title={"_"} items={bigProducts} toBuy={true}/>
             <SectionCard title={"os mais desejados"} items={mostDesired} toBuy={true}/>
             <SectionCard title={"vida saudável"} items={healthLife} toBuy={true}/>
-            {/* <SectionCard title={"corpo e banho"} items={mostDesired} toBuy={true}/> */}
-            {/* <SectionCard title={"fragrâncias"} items={mostDesired} toBuy={true}/> */}
+            {/* <LargeImageSection/> */}
+            <SectionCard title={"corpo e banho"} items={bathroomAndBody} toBuy={true}/>
+            <SectionCard title={"fragrâncias"} items={fragrancies} toBuy={true}/>
             <SectionCard title={"acabaram de chegar"} items={newArrived} toBuy={true}/>
             <Footer/>
         </>
