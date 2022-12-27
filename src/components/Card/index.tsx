@@ -28,7 +28,7 @@ export const Card = ({url, title, price}: IProduct) => {
                 <RiStarSLine/>
             </div>
             <div className="price-container">
-                RS{price},90
+                R$ {price},90
             </div>
             <button>COMPRAR</button>
         </StyledCard>

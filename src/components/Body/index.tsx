@@ -19,12 +19,12 @@ export const Body = () => {
         <>
             <Header/>
             <Main/>
-            <SectionCard title={"mais vendidos"} images={bestSellers}/>
-            <SectionCard title={"os mais desejados"} images={mostDesired}/>
-            <SectionCard title={"vida saudável"} images={mostDesired}/>
-            {/* <SectionCard title={"corpo e banho"} images={mostDesired}/> */}
-            {/* <SectionCard title={"fragrâncias"} images={mostDesired}/> */}
-            <SectionCard title={"acabaram de chegar"} images={mostDesired}/>
+            <SectionCard title={"mais vendidos"} items={bestSellers}/>
+            <SectionCard title={"os mais desejados"} items={mostDesired}/>
+            <SectionCard title={"vida saudável"} items={healthLife}/>
+            {/* <SectionCard title={"corpo e banho"} items={mostDesired}/> */}
+            {/* <SectionCard title={"fragrâncias"} items={mostDesired}/> */}
+            <SectionCard title={"acabaram de chegar"} items={newArrived}/>
             <Footer/>
         </>
     )

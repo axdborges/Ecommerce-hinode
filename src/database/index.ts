@@ -10,6 +10,11 @@ import cafe from "../assets/healthy-1.svg"
 import acido from "../assets/healthy-2.svg"
 import slim from "../assets/healthy-3.svg"
 import cha from "../assets/healthy-4.svg"
+import perfum from "../assets/new-1.svg"
+import deso from "../assets/new-2.svg"
+import sabon from "../assets/new-3.svg"
+import hdnSha from "../assets/new-4.svg"
+
 
 
 
@@ -89,22 +94,22 @@ export const bathroomAndBody = [1, 2 ,3 ,4, 5 ,6 ,7 ,8]
 export const fragrancies = [1, 2 ,3 ,4, 5 ,6 ,7 ,8]
 
 export const newArrived = [{
-    url: corps,
-    title: "Corps Lígnea Body Contour Gel Modelador500g",
-    price: 60,
+    url: perfum,
+    title: "Deo Colônia Venyx L’Or 100ml",
+    price: 150,
 },
 {
-    url: shakeVan,
-    title: "Shake de Vanilla H+ HND - 550g",
-    price: 79,
+    url: deso,
+    title: "Desodorante Roll On Dynamic",
+    price: 17,
 },
 {
-    url: shakeMor,
-    title: "Shake de Morango H+ HND - 550g",
-    price: 79,
+    url: sabon,
+    title: "Erva Doce Sabonete Cremoso Facial Hinode 250ml",
+    price: 33,
 },
 {
-    url: LuvaSil,
-    title: "Luva de Silicone Creme para as Mãos Hands 100g",
-    price: 25,
+    url: hdnSha,
+    title: "HND Shake Triple Chocolate 450g",
+    price: 109,
 }]
