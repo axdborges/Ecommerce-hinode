@@ -14,7 +14,13 @@ import perfum from "../assets/new-1.svg"
 import deso from "../assets/new-2.svg"
 import sabon from "../assets/new-3.svg"
 import hdnSha from "../assets/new-4.svg"
-
+import lips from "../assets/interests-1.svg"
+import redDress from "../assets/interests-2.svg"
+import muscle from "../assets/interests-3.svg"
+import bodyCream from "../assets/interests-4.svg"
+import bigPerfum from "../assets/big-1.svg"
+import bigHdn from "../assets/big-2.svg"
+import { IProduct } from "../interfaces"
 
 
 
@@ -67,6 +73,45 @@ export const mostDesired = [
         price: 25,
     }
 ]
+
+export const interests = [
+    {
+        url: lips,
+        title: "maquiagens",
+        price: 0,
+    },
+    {
+        url: redDress,
+        title: "fragrâncias",
+        price: 0,
+    },
+    {
+        url: muscle,
+        title: "energia & performance",
+        price: 0,
+    },
+    {
+        url: bodyCream,
+        title: "corpo & banho",
+        price: 0,
+    }
+]
+
+export const bigProducts: IProduct[] = [
+    {
+        url: bigPerfum,
+        title: "Venyx L’Or 100ml",
+        price: 150,
+    },
+    {
+        url: bigHdn,
+        title: "Multi- Vit Complex A-Z Mulheres 60 Cápsulas",
+        price: 85,
+    },
+]
+
+
+
 
 export const healthLife = [{
     url: cafe,

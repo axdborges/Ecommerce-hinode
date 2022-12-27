@@ -1,14 +1,11 @@
 import { StyledCard } from "./styles";
+import { IProduct } from "../../interfaces";
 
 import { BiHeart } from "react-icons/bi";
 import { RiStarSFill, RiStarSLine} from "react-icons/ri"
 
 
-export interface IProduct {
-    url: string;
-    title: string;
-    price: number;
-}
+
 
 export const Card = ({url, title, price}: IProduct) => {
     return (

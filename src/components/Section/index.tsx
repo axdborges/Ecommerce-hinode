@@ -1,19 +1,12 @@
 import { StyledSection } from "./styles";
 import { Card } from "../Card";
-import { ReactNode } from "react";
+import { ImageCard } from "../ImageCard";
+import { ISection } from "../../interfaces";
 
-// import { IProduct } from "../Card";
 
-interface IProduct {
-    url: string;
-    title: string;
-    price: number;
-}
 
-interface ISection {
-    title: string;
-    items: IProduct[];
-}
+
+
 
 export const SectionCard = (props: ISection) => {
 
@@ -23,13 +16,22 @@ export const SectionCard = (props: ISection) => {
                 {props.title}
             </h2>
             <div className="cards">
-                {
-                    props.items.map((item, index)=> {
+                {   
+                    props.toBuy ?
+                    props.items.map((item, index) => {
                         return (
                             <Card 
                             url={item.url} 
                             title={item.title} 
                             price={item.price}
+                            key={index}/>
+                        )
+                    })
+                    : props.items.map((item, index) => {
+                        return (
+                            <ImageCard 
+                            url={item.url}
+                            title={item.title}
                             key={index}/>
                         )
                     })

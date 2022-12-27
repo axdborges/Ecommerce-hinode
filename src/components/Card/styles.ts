@@ -10,7 +10,7 @@ export const StyledCard = styled.div`
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 10px;
 
     /* svg {
@@ -84,14 +84,14 @@ export const StyledCard = styled.div`
         padding: 20px 30px 20px 30px;
  
         background-color: var(--white-basic);
-        border: solid 2px var(--brown-detail);
+        border: solid 2px var(--orange-button);
 
         display: flex;
         align-items: center;
         justify-content: center;
 
         font-size: 0.731875em;
-        color: var(--brown-detail);
+        color: var(--orange-button);
     }
     
 `;

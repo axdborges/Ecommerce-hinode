@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         --black-primary: #000000;
         --white-primary: #E5E5E5;
         --white-basic: #FFFFFF;
+        --gray-primary: #828282;
         
         /* Backgrounds */
         
