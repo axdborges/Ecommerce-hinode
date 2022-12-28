@@ -125,68 +125,69 @@ export const bigProducts: IProduct[] = [
 ]
 
 export const healthLife: IProduct[] = [
-{
-    url: cafe,
-    title: "Café Verde120 cápsulas",
-    price: 69,
-},
-{
-    url: acido,
-    title: "Ácido Hialurônico com Colágeno HND 30 Sachês de 4g",
-    price: 175,
-},
-{
-    url: slim,
-    title: "Slim Max HND 120 Cápsulas",
-    price: 140,
-},
-{
-    url: cha,
-    title: "Chá H+ Frutas Vermelhas150g",
-    price: 85,
-}]
+    {
+        url: cafe,
+        title: "Café Verde120 cápsulas",
+        price: 69,
+    },
+    {
+        url: acido,
+        title: "Ácido Hialurônico com Colágeno HND 30 Sachês de 4g",
+        price: 175,
+    },
+    {
+        url: slim,
+        title: "Slim Max HND 120 Cápsulas",
+        price: 140,
+    },
+    {
+        url: cha,
+        title: "Chá H+ Frutas Vermelhas150g",
+        price: 85,
+    }
+]
 
 export const bathroomAndBody: IProduct[] = [
-{
-    url: oleo,
-    title: "Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml ",
-    price: 45,
-},
-{
-    url: esfo,
-    title: "Corps Lígnea Body Contour Esfoliante Corporal - 200g",
-    price: 49,
-},
-{
-    url: gel,
-    title: "Gel para Massagem Feelin Hot Morango 60ml",
-    price: 27,
-},
-{
-    url: pern,
-    title: "Óleo para as Pernas Wonderful 140ml",
-    price: 39,
-},
-{
-    url: bodyGel,
-    title: "Corps Lígnea Body Contour Gel Modelador500g",
-    price: 60,
-},
-{
-    url: mold,
-    title: "Corps Lígnea Body Contour Gel Modelador500g",
-    price: 60,
-},
-{
-    url: past,
-    title: "Corps Lígnea Body Contour Gel Modelador500g",
-    price: 60,
-},
-{
-    url: corpsl,
-    title: "Corps Lígnea Body Contour Gel Modelador500g",
-    price: 60,
-}
+    {
+        url: oleo,
+        title: "Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml ",
+        price: 45,
+    },
+    {
+        url: esfo,
+        title: "Corps Lígnea Body Contour Esfoliante Corporal - 200g",
+        price: 49,
+    },
+    {
+        url: gel,
+        title: "Gel para Massagem Feelin Hot Morango 60ml",
+        price: 27,
+    },
+    {
+        url: pern,
+        title: "Óleo para as Pernas Wonderful 140ml",
+        price: 39,
+    },
+    {
+        url: bodyGel,
+        title: "Corps Lígnea Body Contour Gel Modelador500g",
+        price: 60,
+    },
+    {
+        url: mold,
+        title: "Corps Lígnea Body Contour Gel Modelador500g",
+        price: 60,
+    },
+    {
+        url: past,
+        title: "Corps Lígnea Body Contour Gel Modelador500g",
+        price: 60,
+    },
+    {
+        url: corpsl,
+        title: "Corps Lígnea Body Contour Gel Modelador500g",
+        price: 60,
+    }
 ]
 
 export const fragrancies: IProduct[] = [
@@ -232,23 +233,25 @@ export const fragrancies: IProduct[] = [
     }
 ]
 
-export const newArrived: IProduct[] = [{
-    url: perfum,
-    title: "Deo Colônia Venyx L’Or 100ml",
-    price: 150,
-},
-{
-    url: deso,
-    title: "Desodorante Roll On Dynamic",
-    price: 17,
-},
-{
-    url: sabon,
-    title: "Erva Doce Sabonete Cremoso Facial Hinode 250ml",
-    price: 33,
-},
-{
-    url: hdnSha,
-    title: "HND Shake Triple Chocolate 450g",
-    price: 109,
-}]
+export const newArrived: IProduct[] = [
+    {
+        url: perfum,
+        title: "Deo Colônia Venyx L’Or 100ml",
+        price: 150,
+    },
+    {
+        url: deso,
+        title: "Desodorante Roll On Dynamic",
+        price: 17,
+    },
+    {
+        url: sabon,
+        title: "Erva Doce Sabonete Cremoso Facial Hinode 250ml",
+        price: 33,
+    },
+    {
+        url: hdnSha,
+        title: "HND Shake Triple Chocolate 450g",
+        price: 109,
+    }
+]
